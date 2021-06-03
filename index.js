@@ -6,7 +6,7 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['@typescript-eslint'],
-  extends: ['plugin:@typescript-eslint/recommended', 'prettier/@typescript-eslint', 'plugin:prettier/recommended'],
+  extends: ['plugin:@typescript-eslint/recommended', 'plugin:prettier/recommended'],
   rules: {
     semi: [2, 'always'],
     '@typescript-eslint/explicit-function-return-type': [
