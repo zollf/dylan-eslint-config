@@ -1,4 +1,7 @@
 # Dylan Typescript Eslint Config
+
+Just a index.js config file nothing special. Used to reduce config files and remain consistent throughout projects.
+
 ## How to Install
 ```bash
 yarn add --dev https://github.com/zollf/dylan-eslint-config.git

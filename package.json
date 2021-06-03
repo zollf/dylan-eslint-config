@@ -1,8 +1,8 @@
 {
   "name": "dylan-eslint-config",
   "version": "1.0.0",
-  "main": "prettier.json",
-  "repository": "",
+  "main": "index.js",
+  "repository": "https://github.com/zollf/dylan-eslint-config",
   "author": "Dylan Kennedy",
   "license": "UNLICENSED",
   "private": false,
