@@ -1,0 +1,15 @@
+{
+  "name": "dylan-eslint-config",
+  "version": "1.0.0",
+  "main": "prettier.json",
+  "repository": "",
+  "author": "Dylan Kennedy",
+  "license": "UNLICENSED",
+  "private": false,
+  "peerDependencies": {
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2"
+  }
+}
