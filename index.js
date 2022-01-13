@@ -6,7 +6,12 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['@typescript-eslint'],
-  extends: ['plugin:@typescript-eslint/recommended', 'plugin:prettier/recommended'],
+  extends: [
+    'plugin:@typescript-eslint/recommended', 
+    'plugin:prettier/recommended',
+    'plugin:react/recommended',
+    'plugin:react-hooks/recommended',
+  ],
   rules: {
     semi: [2, 'always'],
     '@typescript-eslint/explicit-function-return-type': [
@@ -28,8 +33,12 @@ module.exports = {
         endOfLine: 'auto',
       },
     ],
+    'react-hooks/exhaustive-deps': 'warn',
   },
   settings: {
+    react: {
+      version: 'detect'
+    },
     'import/resolver': {
       typescript: {},
     },
